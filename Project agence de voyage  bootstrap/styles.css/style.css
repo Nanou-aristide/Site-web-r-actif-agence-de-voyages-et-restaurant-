@@ -1,0 +1,138 @@
+ body {
+            font-family: 'Arial', sans-serif;
+            margin: auto;
+        }
+        .nav-style{
+            height: 130px;
+        }
+    
+        h1 {
+            font-size: 1.4rem;
+            margin: 0;
+            padding: 10px;
+        }
+
+        header{
+            box-shadow: 0px 4px 1px 0px black;
+        }
+
+        .logo{
+            height: 100px;
+            width: 100px;
+            margin-left: 10px;
+        }
+
+       
+    
+
+
+        /*media queries pour les petits écrans */
+        
+        @media screen and (max-width: 760px) {
+            h1 {
+                text-align: center;
+                
+            }
+        }
+      @media (max-width: 991.98px) {
+            .navbar-nav {
+                text-align: center;
+            }
+
+            .navbar-nav .nav-link {
+                padding: 1px;
+                font-size: 12px;
+         }
+       }
+
+        @media screen and (max-width: 760px) {
+            .logo {
+                height: 50px;
+                width: 50px;                
+            }
+        }
+
+        @media screen and (max-width: 760px) {
+            .jutifierText {
+                display: flex;
+                justify-content: center;               
+            }
+        }
+
+
+
+        .active{
+            color: rgb(243, 188, 60);
+            background-color: black;
+            border-radius: 10px;
+        }
+
+        .nav-link:hover {
+            background-color: rgb(35, 122, 244);
+            border-radius: 10px;
+            color: white;
+            
+        }
+       
+        .nav-link{
+            margin-right: 7px;
+        }
+
+       button.img{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px 20px;
+        font-size: 1.5rem;
+        opacity: 0.8;
+        border-radius: 15px;
+        
+       }
+
+       button.img:hover{
+        opacity: 1;
+        background-color: rgb(31, 135, 246);
+        color: white;
+       }
+
+       .titreHeros{
+        text-align: center;
+        color: rgb(243, 117, 14);
+        font-weight: bold;
+        font-size: 20px;        
+       }
+
+       .pHeros{
+            width: 200px;
+            margin: 0px 0px 0px 0px;
+            font-size: 12px;
+       }
+
+       .backgroundTextSlide{
+        margin: 120px 0px 0px 50px;
+        padding: 10px 40px 50px 20px;
+        background-color: brown;
+        border-radius: 20px;
+       }
+
+       @media screen and (max-width: 760px) {
+             .backgroundTextSlide{
+        margin: 15px 0px 0px 50px;;
+        padding: 0px 40px 0px 0px;
+     }
+
+             .titreHeros{
+                font-size: 15px;
+
+       }
+
+            .pHeros{
+            width: 200px;
+            padding: 0px 0px 10px 0px;
+            text-align: center;
+            font-size: 11px;
+
+             }
+
+       }
+        
